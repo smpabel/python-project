@@ -1,5 +1,5 @@
 print("hello Syed Maniruzzaman Pabel")
-a = 100
-b = 100
+a = 50
+b = 50
 c = a+b
 print(c)
