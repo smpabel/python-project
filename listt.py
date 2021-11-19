@@ -1,4 +1,4 @@
-lst = [10,20,30,40]
+lst = [10,20,30,40,100,200]
 # n = int(input("enter how many value do u want "))
 # for i in range(0,n):
 #     ele = (input())
