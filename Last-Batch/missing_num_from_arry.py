@@ -1,16 +1,13 @@
+
 def GetMissNum(a):
     n = len(a)
-    print(n)
+    print("len of a",n)
     total = (n+1)*(n+2)/2
-    print(total)
+    print("total is",total)
     SumOfa = sum(a)
-    print(SumOfa)
+    print("sum of a",SumOfa)
     return total-SumOfa
-
-
-
-
 
 a = [1,2,3,5,6]
 miss = GetMissNum(a)
-print(miss)
+print("missing number is ",miss)
