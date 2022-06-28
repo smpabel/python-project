@@ -1,6 +1,6 @@
 //using recursion function
 #include<stdio.h>
-long double fact(int), x;
+long double fact(), x;
 int main(){
 
     int n;
