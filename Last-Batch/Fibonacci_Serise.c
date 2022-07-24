@@ -9,14 +9,14 @@ int mail(){
 
     printf("Fibonacci Series: %d, %d, ", t1, t2);
 
-    // for ( i = 3; i <=n; i++)
-    // {
-    //     printf("%d",next);
-           t1 = t2;
-           t2 = next;
-           next = t1+t2;
-           
-    // }
+    for ( i = 3; i <=n; i++)
+
+    {
+        printf("%d",next);
+        t1 = t2;
+        t2 = next;
+        next = t1+t2; 
+    }
     
     return 0;
 
